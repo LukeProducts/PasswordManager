@@ -54,6 +54,8 @@ def delete():
     print("Successfully deleteed this databench")
     exit(0)
 banner()
+if not os.path.exists('encrypted_passwds'):
+    os.mkdir("encrypted_passwds")
 process_up()
 try:
     cryptopass = input("Enter Cryptopass: ")
