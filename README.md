@@ -8,7 +8,7 @@ It also has a Module to generate Random 40 digit Passwords with a great unbrutfo
 ```ruby
 pip install requirements.txt
 ```
-```a
+```source
 python secPwd.py
 ```
 # troubleshooting 
