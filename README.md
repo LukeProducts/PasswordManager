@@ -8,3 +8,6 @@ Installation:
 ```ruby
 pip install requirements.txt
 ```
+# troubleshooting 
+if you get a no module named "Crypto" - Error:
+exectue [troubleshoot_crypto]
