@@ -4,7 +4,7 @@ First into base64 string and then the whole File into bytes and sha256 unbypasse
 So you can say, your Passwords are secure than.
 It also has a Module to generate Random 40 digit Passwords with a great unbrutforceable entropy.
 
-Installation:
+# Installation:
 ```ruby
 pip install requirements.txt
 ```
