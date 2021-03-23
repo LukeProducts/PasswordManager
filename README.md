@@ -14,7 +14,7 @@ python secPwd.py
 # troubleshooting 
 if you get a no module named "Crypto" - Error:
 
-exectue `troubleshoot_crypto/fix_Crypto_not _found_error.bat` on win.
+exectue `troubleshoot_crypto/fix_Crypto_not_found_error.bat` on win.
 You have to give in the Version of Python like a Directory-name [For example: Python 3.9.4 gets to Python39 and Python 3.8.xy gets to Python38]
 
 This will change the Directory Name of the Crypto-Module in the site-packages folder of your Pythons environmental path from "crypto" to "Crypto".
