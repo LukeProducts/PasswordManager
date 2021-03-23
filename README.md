@@ -5,4 +5,6 @@ So you can say, your Passwords are secure than.
 It also has a Module to generate Random 40 digit Passwords with a great unbrutforceable entropy.
 
 Installation:
-
+```ruby
+pip install requirements.txt
+```
