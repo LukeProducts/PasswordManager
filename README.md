@@ -19,6 +19,11 @@ You have to give in the Version of Python like a Directory-name [For example: Py
 This will change the Directory Name of the Crypto-Module in the site-packages folder of your Pythons environmental path from "crypto" to "Crypto".
 If you are on osx, please do this by hand.
 
+[![Build Status](https://user-images.githubusercontent.com/73026669/110617122-9c75ad00-8195-11eb-9ba5-422356072776.png)](https://github.com/LukeProducts)
+
+
+
+© Copyright by LukeProducts
 
 
 
