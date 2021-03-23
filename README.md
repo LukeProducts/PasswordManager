@@ -1,2 +1,8 @@
 # PasswordManager
-Python Script encodes your given Passwords into base64 first, and then decrypts the file into sha256 with a Master key you decide.
+This is a Python Tool that encodes Passwords and Usernames twice.
+First into base64 string and then the whole File into bytes and sha256 unbypassed encoding variant.
+So you can say, your Passwords are secure than.
+It also has a Module to generate Random 40 digit Passwords with a great unbrutforceable entropy.
+
+Installation:
+
