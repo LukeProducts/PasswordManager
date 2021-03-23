@@ -1,6 +1,18 @@
 import secrets, string, base64, os
 from crypt import *
 encode = True
+def banner():
+    print(f"""
+    ______             ____  ___                                  
+    | ___ \           | |  \/  |                                  
+    | |_/ /_      ____| | .  . | __ _ _ __   __ _  __ _  ___ _ __ 
+    |  __/\ \ /\ / / _` | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|
+    | |    \ V  V / (_| | |  | | (_| | | | | (_| | (_| |  __/ |   
+    \_|     \_/\_/ \__,_\_|  |_/\__,_|_| |_|\__,_|\__, |\___|_|   
+                                               __/ |          
+                  Copyright by LukeProducts   |___/           
+
+    """)
 def Convert(Lst):
     return {Lst[i]: Lst[i + 1] for i in range(0, len(Lst), 2)}
 def generate_rand():
@@ -10,7 +22,7 @@ def process_up():
         if not os.path.exists("passwds.txt"):
             with open("passwds.txt", 'x') as f:
                 f.write(f"{base64.b64encode('username'.encode('utf-8')).decode('utf-8')}\n{base64.b64encode('password'.encode('utf-8')).decode('utf-8')}")
-        encrypt(gather_key(input("Enter key for SHA256 File Encryption: ")), "passwds.txt")
+        encrypt(gather_key(input("Enter key for SHA256 File Encryption [GENERAL MAIN ACCESS KEY]\n: ")), "passwds.txt")
     try:
         with open("passwds.txt", 'x') as f:
             f.write(f"{base64.b64encode('username'.encode('utf-8')).decode('utf-8')}\n{base64.b64encode('password'.encode('utf-8')).decode('utf-8')}")
@@ -41,7 +53,7 @@ def delete():
     os.remove('passwds.txt')
     print("Successfully deleteed this databench")
     exit(0)
-
+banner()
 process_up()
 try:
     cryptopass = input("Enter Cryptopass: ")
