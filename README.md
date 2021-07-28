@@ -22,8 +22,8 @@ If you are on osx, please do this by hand.
 
 [![Build Status](https://user-images.githubusercontent.com/73026669/110617122-9c75ad00-8195-11eb-9ba5-422356072776.png)](https://github.com/LukeProducts)
 
+![lp](https://user-images.githubusercontent.com/73026669/127307878-5ef3b84f-276c-4027-a77d-18cb1c095a31.png)
 
-![lp](https://user-images.githubusercontent.com/73026669/127307799-7834708b-4c67-45e3-bb93-4fe51464ac74.png)
 
 © Copyright by LukeProducts
 
