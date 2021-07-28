@@ -26,5 +26,6 @@ If you are on osx, please do this by hand.
 
 © Copyright by LukeProducts
 
-https://user-images.githubusercontent.com/73026669/127322136-e95a9dd2-5c7d-40f8-b32f-7c03a63c5673.png
+![help](https://user-images.githubusercontent.com/73026669/127322216-bb9ba33f-2239-499f-a8db-d5a7df036cfc.png)
+
 
